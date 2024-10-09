@@ -71,11 +71,15 @@ Social sciences workshops
 </p>
 
 {% elsif site.flavor == "python" %}
-<p>
-  The setup instructions for the Data Carpentry Social Sciences workshops (with Python)
-  can be found at <a href="https://datacarpentry.org/socialsci-workshop/setup-python-workshop.html">
-    the workshop overview site</a>.
-</p>
+
+<div id="openrefine-setup">
+  <h3>OpenRefine</h3>
+  <p>
+    OpenRefine is a tool to clean up and organize messy data. Please find instructions to
+    install it and the data used in the lesson in the
+    <a href="https://librarycarpentry.org/lc-open-refine/">lesson</a>.
+  </p>
+</div>
 {% else %}
 {% include warning-flavor.html %}
 {% endif %}
